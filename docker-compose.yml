@@ -5,7 +5,7 @@ services:
     image: towfiqi/serpbear
     restart: unless-stopped
     ports:
-      - 3000:3000
+      - 4500:3000
     environment:
       - USER=admin
       - PASSWORD=0123456789
